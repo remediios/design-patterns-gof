@@ -1,15 +1,15 @@
-# Padrões de projeto de criação (creational)
+# Creational Design Patterns
 
-Os padrões de projeto de criação são padrões que abstraem o processo de instanciação de objetos. Eles ajudam a tornar um sistema independente de como seus objetos são representados, criados e compostos. Geralmente, atingem este objetivo delegando tarefas para outros objetos.
+Creational design patterns are patterns that abstract the object instantiation process. They help make a system independent of how its objects are represented, created, and composed. Generally, they achieve this goal by delegating tasks to other objects.
 
-Esses padrões dão muita flexibilidade ao sistema, porque encapsulam o conhecimento sobre quais classes concretas são usadas. Além disso, ocultam o modo como as instâncias são criadas e compostas. O foco é eliminar conhecimento do cliente sobre o _QUE_, _COMO_ e _QUANDO_ está sendo criado e _QUEM_ faz parte do processo de criação.
+These patterns provide a lot of flexibility to the system because they encapsulate knowledge about which concrete classes are used. Additionally, they hide how instances are created and composed. The focus is on eliminating the client's knowledge of _WHAT_, _HOW_, and _WHEN_ is being created and _WHO_ is part of the creation process.
 
-## Padrões e intenções
+## Patterns and Intentions
 
-Os padrões de projeto de criação originais da GoF são:
+The original GoF creational design patterns are:
 
-- **Abstract Factory** - Fornecer uma interface para criação de famílias de objetos relacionados ou dependentes sem especificar suas classes concretas;
-- **Builder** - Separar a construção de um objeto complexo de sua representação, de modo que o mesmo processo de construção possa criar diferentes representações;
-- **Factory Method** - Definir uma interface para criar um objeto, mas deixar as subclasses decidirem qual classe a ser instanciada. O Factory Method permite a uma classe postergar (defer) a instanciação às subclasses;
-- **Prototype** - Especificar os tipos de objetos a serem criados usando uma instância prototípica e criar novos objetos copiando este protótipo;
-- **Singleton** - Garantir que uma classe tenha somente uma instância e fornecer um ponto global de acesso para ela.
+- **Abstract Factory** - Provide an interface for creating families of related or dependent objects without specifying their concrete classes.
+- **Builder** - Separate the construction of a complex object from its representation so that the same construction process can create different representations.
+- **Factory Method** - Define an interface for creating an object but let subclasses decide which class to instantiate. The Factory Method allows a class to defer instantiation to subclasses.
+- **Prototype** - Specify the types of objects to be created using a prototypical instance and create new objects by copying this prototype.
+- **Singleton** - Ensure that a class has only one instance and provide a global point of access to it.
