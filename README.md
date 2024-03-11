@@ -23,20 +23,15 @@ This repository focuses on implementing these design patterns in TypeScript, sho
 
 ### Creational Patterns
 
-1. **Singleton Pattern**
-   - [singleton.ts](src/creational/singleton)
+1. [**Singleton Pattern** ](src/creational/singleton)
 
-2. **Factory Method Pattern**
-   - [factory-method.ts](src/creational/factory-method)
+2. [**Factory Method Pattern**](src/creational/factory-method)
 
-3. **Abstract Factory Pattern**
-   - [abstract-factory.ts](src/creational/abstract-factory)
+3. [**Abstract Factory Pattern**](src/creational/abstract-factory)
 
-4. **Builder Pattern**
-   - [builder.ts](src/creational/builder)
+4. [**Builder Pattern**](src/creational/builder)
 
-5. **Prototype Pattern**
-   - [prototype.ts](src/creational/prototype)
+5. [**Prototype Pattern**](src/creational/prototype)
 
 ### Structural Patterns
 
